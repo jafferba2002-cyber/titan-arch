@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titan Arch - Architects & Engineers</title>
+    <!-- Link to the separate CSS file -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" xintegrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ964C+K9kU6U89I3G1eK4a4A9C4x2RjF1zPz1x4j2Q8+8R8t5z+qA1X7qA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-gray-500 text-gray-800 antialiased">
+    <!-- Main container -->
+    <div class="container mx-auto p-4 sm:p-6 md:p-8">
+        <!-- Top bar with contact info -->
+        <div class="bg-orange-700 text-white text-sm p-2 rounded-t-xl flex justify-center sm:justify-between items-center flex-wrap">
+            <div class="flex items-center space-x-4 mb-2 sm:mb-0">
+                <a href="mailto:info@titanarch.com" class="hover:underline">info@titanarch.com</a>
+                <span>|</span>
+                <a href="tel:+919500509599" class="hover:underline">+91 9500509599</a>
+            </div>
+            <div class="flex space-x-4">
+    <a href="https://www.instagram.com/titan_arch_cbe/?utm_source=ig_web_button_share_sheet" class="social-icon" target="_blank"><i class="fab fa-instagram"></i></a>
+</div>
+        </div>
+
+        <!-- Navigation Bar -->
+        <nav class="bg-white p-4 flex justify-between items-center rounded-b-xl shadow-lg">
+            <div class="flex items-center space-x-4">
+                <img 
+                    src="titanlogopng.png" 
+                    alt="Titan Arch Logo" 
+                    class="h-auto rounded-lg w-12"
+                    onerror="this.src='https://placehold.co/100x40/E5E7EB/4B5563?text=Logo'"
+                >
+                <h1 class="text-2xl font-bold">TITAN ARCH</h1>
+            </div>
+            <!-- Navigation links - using a simple list for a single-page site -->
+            <div class="hidden md:flex space-x-6 text-gray-600 font-semibold">
+    <a href="#contact-section" class="hover:text-blue-600 transition-colors duration-200">Contact</a>
+</div>
+        </nav>
+
+        <!-- Hero Section -->
+        <div class="relative mt-8 rounded-xl overflow-hidden shadow-xl">
+            <!-- Background Image with Overlay -->
+            <div class="bg-cover bg-center h-96" style="background-image: url('dark-architecture.jpg');">
+                <div class="absolute inset-0 bg-black opacity-50"></div>
+                <div class="absolute inset-0 flex flex-col items-center justify-center text-white p-4 text-center">
+                    <p class="text-lg uppercase tracking-widest font-semibold mb-2">Built on Trust. Designed for Tomorrow.</p>
+                    <h2 class="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight">We're not Constructing, We build Your Dreams.</h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- Services Section -->
+        <div class="mt-12">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Service Card 1 -->
+                <div class="bg-white p-6 rounded-xl shadow-md text-center">
+                    <div class="text-4xl text-orange-700 mb-4">
+                        <i class="fa-solid fa-hard-hat"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">Construction</h3>
+                    <p class="text-gray-700">From concept to completion, we manage every phase with technical expertise and architectural finesse—ensuring timely delivery, structural integrity, and design coherence..</p>
+                </div>
+                <!-- Service Card 2 -->
+                <div class="bg-white p-6 rounded-xl shadow-md text-center">
+                    <div class="text-4xl text-orange-700 mb-4">
+                        <i class="fa-solid fa-paintbrush"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">Renovation</h3>
+                    <p class="text-gray-700">We reimagine outdated or underutilized spaces, enhancing their value, usability, and visual appeal while preserving character and context..</p>
+                </div>
+                <!-- Service Card 3 -->
+                <div class="bg-white p-6 rounded-xl shadow-md text-center">
+                    <div class="text-4xl text-orange-700 mb-4">
+                        <i class="fa-solid fa-house-chimney"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">Space Management</h3>
+                    <p class="text-gray-700">Smart planning meets creative design. We analyze spatial flow, user needs, and environmental factors to craft layouts that are efficient, elegant, and future-ready.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer/Contact Section -->
+        <div id="contact-section" class="mt-12 bg-gray-200 p-6 rounded-xl shadow-inner text-center text-gray-700">
+            <h3 class="text-2xl font-bold mb-2">Contact Titan Arch</h3>
+            <p class="text-lg">21/4, 1st floor, KPP Nagar, Kuniamuthur, Coimbatore, Tamil Nadu 641008</p>
+            <p class="text-lg mt-1">Phone: <a href="tel:+919500509599" class="text-orange-700 hover:underline">9500509599</a></p>
+        </div>
+    </div>
+</body>
+</html>
