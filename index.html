@@ -17,7 +17,7 @@
         <!-- Top bar with contact info -->
         <div class="bg-orange-700 text-white text-sm p-2 rounded-t-xl flex justify-center sm:justify-between items-center flex-wrap">
             <div class="flex items-center space-x-4 mb-2 sm:mb-0">
-                <a href="mailto:info@titanarch.com" class="hover:underline">info@titanarch.com</a>
+                <a href="mailto:info@titanarch.com" class="hover:underline">titanarchcbe@gmail.com</a>
                 <span>|</span>
                 <a href="tel:+919500509599" class="hover:underline">+91 9500509599</a>
             </div>
@@ -29,18 +29,16 @@
         <!-- Navigation Bar -->
         <nav class="bg-white p-4 flex justify-between items-center rounded-b-xl shadow-lg">
             <div class="flex items-center space-x-4">
-                <img 
-                    src="titanlogopng.png" 
-                    alt="Titan Arch Logo" 
-                    class="h-auto rounded-lg w-12"
-                    onerror="this.src='https://placehold.co/100x40/E5E7EB/4B5563?text=Logo'"
-                >
-                <h1 class="text-2xl font-bold">TITAN ARCH</h1>
+                <!-- The h1 tag now contains the image for improved accessibility and SEO -->
+                <h1 class="font-bold text-lg" aria-label="Titan Arch Architects & Engineers">
+                    <img 
+                        src="titanlogopng.png" 
+                        alt="Titan Arch Logo" 
+                        class="h-auto rounded-lg w-auto max-w-[280px]"
+                        onerror="this.src='titanlogopng.png'"
+                    >
+                </h1>
             </div>
-            <!-- Navigation links - using a simple list for a single-page site -->
-            <div class="hidden md:flex space-x-6 text-gray-600 font-semibold">
-    <a href="#contact-section" class="hover:text-blue-600 transition-colors duration-200">Contact</a>
-</div>
         </nav>
 
         <!-- Hero Section -->
